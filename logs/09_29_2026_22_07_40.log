@@ -1,0 +1,13 @@
+[2026-09-29 22:07:41,230]11__main__ -INFO -Training Pipeline Started
+[2026-09-29 22:07:41,232]26src.component.data_ingestion -INFO -Data Ingestion started....
+[2026-09-29 22:07:41,241]31src.component.data_ingestion -INFO -Data read successfullywith shape: (100, 6)
+[2026-09-29 22:07:41,250]44src.component.data_ingestion -INFO -Performing train-test-split
+[2026-09-29 22:07:41,343]65src.component.data_ingestion -INFO -Data Ingestion completed successfully...
+[2026-09-29 22:07:41,351]80src.component.data_transformation -INFO -Train and test data loaded for transformation
+[2026-09-29 22:07:41,356]102src.component.data_transformation -INFO -Applying preprocessing on train and test data
+[2026-09-29 22:07:41,401]16src.utils -INFO -Object saved successfully at : artifacts\preprocessor.pkl
+[2026-09-29 22:07:41,401]127src.component.data_transformation -INFO -Preprocessor object saved as preprocessor.pkl
+[2026-09-29 22:07:41,402]26src.component.model_trainer -INFO -Splitting train and test input data
+[2026-09-29 22:07:41,502]21src.exception -ERROR -Error occured in python scripts: [C:\Users\dell\Desktop\workshop_ml\src\utils.py]at line number: [35]with error message: [Format specifier missing precision]
+[2026-09-29 22:07:41,502]21src.exception -ERROR -Error occured in python scripts: [C:\Users\dell\Desktop\workshop_ml\src\component\model_trainer.py]at line number: [41]with error message: [Format specifier missing precision]
+[2026-09-29 22:07:41,502]21src.exception -ERROR -Error occured in python scripts: [C:\Users\dell\Desktop\workshop_ml\src\pipeline\train_pipeline.py]at line number: [23]with error message: [Format specifier missing precision]

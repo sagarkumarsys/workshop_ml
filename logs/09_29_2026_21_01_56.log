@@ -1,0 +1,2 @@
+[2026-09-29 21:01:56,407]26__main__ -INFO -Splitting train and test input data
+[2026-09-29 21:01:56,409]21src.exception -ERROR -Error occured in python scripts: [C:\Users\dell\Desktop\workshop_ml\src\component\model_trainer.py]at line number: [29]with error message: [string indices must be integers, not 'tuple']

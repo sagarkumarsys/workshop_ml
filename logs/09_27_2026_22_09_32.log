@@ -1,0 +1,4 @@
+[2026-09-27 22:09:32,762]80__main__ -INFO -Train and test data loaded for transformation
+[2026-09-27 22:09:32,784]102__main__ -INFO -Applying preprocessing on train and test data
+[2026-09-27 22:09:32,973]16src.utils -INFO -Object saved successfully at : artifacts\preprocessor.pkl
+[2026-09-27 22:09:32,974]127__main__ -INFO -Preprocessor object saved as preprocessor.pkl
