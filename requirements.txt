@@ -5,3 +5,5 @@ fastapi
 uvicorn
 Jinja2Templates
 python-multipart
+gensim
+NLTK
